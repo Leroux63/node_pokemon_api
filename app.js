@@ -4,7 +4,7 @@ const sequelize = require('./src/db/sequelize')
 const favicon = require('serve-favicon')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT ||  3000
 
 
 app
