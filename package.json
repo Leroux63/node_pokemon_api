@@ -1,33 +1,25 @@
 {
-    "name": "node_pokemon_api",
+    "name": "express-api-rest",
     "version": "1.0.0",
-    "description": "An awesome API rest to handle some pokemons.",
+    "description": "express-api-rest",
     "main": "app.js",
     "scripts": {
-        "start": "NODE_ENV=production&& node app.js",
+        "start": "NODE_ENV=production node app.js",
         "dev": "NODE_ENV=development nodemon app.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Leroux63/node_pokemon_api.git"
-    },
-    "author": "David",
+    "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Leroux63/node_pokemon_api/issues"
-    },
-    "homepage": "https://github.com/Leroux63/node_pokemon_api#readme",
     "dependencies": {
-        "bcrypt": "^5.1.0",
-        "body-parser": "^1.20.1",
+        "bcrypt": "^5.0.0",
+        "body-parser": "^1.19.0",
         "cors": "^2.8.5",
-        "express": "^4.18.2",
-        "jsonwebtoken": "^9.0.0",
-        "mariadb": "^3.0.2",
-        "sequelize": "^6.28.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mariadb": "^2.4.2",
+        "sequelize": "^6.3.5",
         "serve-favicon": "^2.5.0"
     },
     "devDependencies": {
-        "nodemon": "^2.0.20"
+        "nodemon": "^2.0.6"
     }
 }
